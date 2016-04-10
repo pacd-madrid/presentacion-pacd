@@ -1,34 +1,34 @@
 ---
-title: Checking Reveal.js
-author: Ramnath Vaidyanathan
+title: Presentación PACD
+author: 
 mode : selfcontained
 framework: revealjs
-hitheme : zenburn
-revealjs:
-  theme: black
-  transition: none
-  center: "true"
-url: {lib: "."}
-bootstrap:
-  theme: amelia
-navbar:
-  title: Slidify
-  items: 
-    - {item: Home, href: index,  icon: home}
-    - {item: "Start", href: start, icon: signin}
-    - {item: Author, href: about, icon: pencil}
-    - {item: Style, href: style, icon: hand-right, class: dropdown, 
-        dropdown: true, menu: [
-         {item: io2012, href: 'samples/intro'},
-         {item: deck.js, href: 'samples/deck.js'},
-         {item: shower, href: 'samples/shower'},
-         {item: landslide, href: 'samples/landslide'}
-        ]
-      }
-    - {item: Customize, href: customize, icon: gift}
-    - {item: Extend, href: extend, icon: cogs}
-    - {item: Publish, href: publish, icon: github}
+revealjs: {theme: black, transition: convex, center: "true"}
+# url: {lib: "."}
+ext_widgets: {rCharts: "libraries/nvd3"}
+#hitheme : zenburn
+# bootstrap: {theme: amelia}
+# navbar:
+#   title: Slidify
+#   items: 
+#     - {item: Home, href: index,  icon: home}
+#     - {item: "Start", href: start, icon: signin}
+#     - {item: Author, href: about, icon: pencil}
+#     - {item: Style, href: style, icon: hand-right, class: dropdown, 
+#         dropdown: true, menu: [
+#          {item: io2012, href: 'samples/intro'},
+#          {item: deck.js, href: 'samples/deck.js'},
+#          {item: shower, href: 'samples/shower'},
+#          {item: landslide, href: 'samples/landslide'}
+#         ]
+#       }
+#     - {item: Customize, href: customize, icon: gift}
+#     - {item: Extend, href: extend, icon: cogs}
+#     - {item: Publish, href: publish, icon: github}
 ---
+
+
+
 
 <img width="800px" src="assets/img/logos/logo_pacd_1200.png" alt="Plataforma Auditoría Ciudadana de la Deuda">
 
@@ -68,11 +68,117 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 - Empoderar a la ciudadanía para liberarse del sometimiento de la deuda. 
 - Transformar el sistema económico y en particular la gestión de los recursos públicos para que ponga en el centro las necesidades de las personas. 
 
-***
+*** 
 
-## Sostener los pilares de la democracia
+## Sostener los pilares de la democracia 
 
 <img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia">
 
+--- &vertical
 
+## ¿Qué es una Auditoría Ciudadana? 
 
+- Una herramienta para descubrir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.
+- Es realizada por la ciudadanía (aunque debe contar con la ayuda de los técnicos de las administraciones públicas).
+- Además del aspecto financiero abarca otros aspectos:
+  - Social
+  - Ambiental
+  - Género
+  - <span>...</span>
+  
+***
+
+## ¿Por qué ciudadana?
+
+- La ciudadanía es la única soberana para decidir sobre la ilegitimidad o no de un gasto o ingreso ejecutado en su territorio (Estado, región, ciudad o barrio).
+- Los instrumentos institucionales de control de la gestión de los recursos públicos son insuficientes y están viciados. El control debe ejercerse por la población.
+
+---
+
+## ¿Qué auditar?
+
+- Liquidación de los presupuestos
+- Préstamos adquiridos
+- Infraestructuras construídas
+- Contrataciones públicas
+- Servicios prestados
+- Impuestos y tasas
+
+---
+
+## La deuda del Ayuntamiento de Madrid
+
+<iframe src=' assets/fig/deuda_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84f0685d4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+---
+
+## ¿A quién debemos?
+
+<iframe src=' assets/fig/acreedores_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84d48f44 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+--- &vertical  
+
+## El concepto de ilegitimidad
+No es un concepto jurídico, sino **político**.
+
+Un concepto que evoluciona con el con el contexto social y que cada población debe construir. 
+
+***
+
+### La esclavitud y los movimientos abolicionistas
+
+<img src="assets/img/esclavitud.jpg" alt="Esclavitud" height=500>
+
+***
+
+### Los derechos de la mujer y el movimiento sufragista
+
+<img src="assets/img/voto_mujer.jpg" alt="Voto de la mujer" height=500>
+
+***
+
+### Los derechos laborales y el movimiento obrero
+
+<img src="assets/img/movimiento_obrero.jpg" alt="Movimiento obrero" width=120%>
+
+***
+
+### Los desahucios y la PAH
+
+<img src="assets/img/pah.jpg" alt="Desahucios y PAH" width=100%>
+
+***
+
+### La deuda y el movimiento anti-deuda
+
+<img src="assets/img/rcade.jpg" alt="Red Ciudadana por la Abolición de la Deuda Externa" width=120%>
+
+--- ds:red &vertical
+
+## Deuda ilegítima
+
+> Aquella contraída sin contar con la población y que vulnera derechos humanos, sociales, económicos, culturales, medioambientales o de género de una parte de la población en favor de los intereses de una minoría.
+
+***
+
+## Deuda ilegal
+
+> Aquella en cuya contratación hubo fraude de ley, bien porque no se siguieron los procedimientos legales apropiados, incluidos aquellos relativos a la autoridad para firmar o aprobar préstamos, títulos de deuda o garantías por parte de sectores o sucursales representantes del gobierno del Estado prestatario, bien porque hubo una clara mala conducta del prestamista, que incluya sobornos, coerción o una influencia indebida, o porque implicara condiciones que contravinieran leyes nacionales o internacionales, o las políticas públicas.
+
+***
+
+## Deuda odiosa
+
+> Aquella contraída por un Estado de manera no democrática e injusta en contra de los intereses legítimos de la población, y que los prestamistas conocían o deberían haber conocido que se estaba incurriendo en una violación de los principios democráticos —consentimiento, participación, transparencia y responsabilidad—.
+
+***
+
+## Deuda insostenible
+
+> Una deuda cuyo pago implica para el Estado serias dificultades para cumplir con sus obligaciones referentes a los derechos humanos básicos, tales como los relacionados con la salud, la educación, el agua, las redes de saneamiento y la vivienda digna, o para invertir en infraestructuras públicas y programas necesarios para el desarrollo económico y social, provocando un deterioro en las condiciones de vida de la población.
+
+---
+
+## Gracias por su atención
+
+<img src="assets/img/nodebemos_nopagamos.jpg" alt="No debemos, no pagamos">

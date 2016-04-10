@@ -2,3 +2,5 @@ base
 devtools
 slidify
 ggplot2
+rCharts
+knitr
