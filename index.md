@@ -62,8 +62,8 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 ## Objetivos de la PACD
 #### Más allá de una simple auditoría contable
 
-- Ejercer el derecho a la información en las cuentas públicas.
-- Lograr una gestión de los recursos públicos transparente. 
+- Ejercer el derecho a la información sobre las cuentas públicas.
+- Lograr una gestión de los recursos públicos transparente y comprensible. 
 - Democratizar la gestión de los recursos públicos.
 - Empoderar a la ciudadanía para liberarse del sometimiento de la deuda. 
 - Transformar el sistema económico y en particular la gestión de los recursos públicos para que ponga en el centro las necesidades de las personas. 
@@ -177,7 +177,7 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 
 > Una deuda cuyo pago implica para el Estado serias dificultades para cumplir con sus obligaciones referentes a los derechos humanos básicos, tales como los relacionados con la salud, la educación, el agua, las redes de saneamiento y la vivienda digna, o para invertir en infraestructuras públicas y programas necesarios para el desarrollo económico y social, provocando un deterioro en las condiciones de vida de la población.
 
----
+--- 
 
 ## Gracias por su atención
 
