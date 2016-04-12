@@ -5,7 +5,8 @@ mode : selfcontained
 framework: revealjs
 revealjs: {theme: black, transition: convex, center: "true"}
 # url: {lib: "."}
-ext_widgets: {rCharts: "libraries/nvd3"}
+ext_widgets: {rCharts: [libraries/nvd3, libraries/leaflet]}
+knit        : slidify::knit2slides
 #hitheme : zenburn
 # bootstrap: {theme: amelia}
 # navbar:
@@ -30,10 +31,11 @@ ext_widgets: {rCharts: "libraries/nvd3"}
 ```{r echo=F}
 require(knitr)
 require(rCharts)
-knitr::opts_chunk$set(comment = NA, results = 'asis', tidy = F, message = T, cache = F)
-options(RCHART_WIDTH = 800, RCHART_HEIGHT = 400, xtable.type = 'html')
+require(xtable)
+require(htmlTable)
+knitr::opts_chunk$set(comment=NA, results='asis', tidy=F, message=T, cache=F, echo=F)
+options(RCHART_WIDTH=800, RCHART_HEIGHT=400, xtable.type='html')
 ```
-
 
 <img width="800px" src="assets/img/logos/logo_pacd_1200.png" alt="Plataforma Auditoría Ciudadana de la Deuda">
 
@@ -42,48 +44,92 @@ http://auditoriaciudadana.net
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
----
+--- &vertical
 
 ## ¿Qué es la PACD?
 
 PACD son las siglas de Plataforma Auditoría Ciudadana de la Deuda
 
-- Plataforma: Un espacio de participación abierto, no institucional y no vinculado a partidos políticos.
-- Ciudadana: Formado por personas no dependientes de las instituciones que habitan un territorio.
-- Auditoría: Para realizar un análisis y explicación de las cuentas públicas con la máxima transparencia y pedagogía.
-- Deuda: Centrada en los gastos, ingresos y el endeudamiento de las administraciones públicas. 
+> - **Plataforma**: Un espacio de participación abierto, no institucional y no vinculado a partidos políticos.
+> - **Ciudadana**: Formado por personas y colectivos no dependientes de las instituciones que habitan un territorio.
+> - **Auditoría**: Para realizar un análisis y explicación de las cuentas públicas con la máxima transparencia y pedagogía.
+> - **Deuda**: Centrada en los gastos, ingresos y el endeudamiento de las administraciones públicas. 
 
----
+<!-- Incremental lists -->
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+***
 
 ## Origen de la PACD
-La PACD surge a principios de 2012 como reacción ciudadana a la crisis de la deuda y los recortes de derechos derivada de ella. 
+La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a la crisis de la deuda y los recortes de derechos derivada de ella. 
 
 Desde entonces se ha extendido por todo el territorio del Estado español.
 
 <img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD">
 
+<!-- *** -->
+
+
+<!-- ```{r echo=F, results='asis'} -->
+<!-- #require(leaflet) -->
+<!-- map <- Leaflet$new() -->
+<!-- map$setView(c(39.5,-3.5), zoom = 6) -->
+<!-- map$marker( -->
+<!--   c(40.4381311,-3.8196242), -->
+<!--   bindPopup = '<p>PACD Madrid<br>pacd.madrid@gmail.com</p>' -->
+<!-- ) -->
+<!-- map$set(height=600) -->
+<!-- map -->
+<!-- ``` -->
+
+*** 
+
+## Algunos logros
+### A nivel estatal
+
+- [Análisis de la deuda del Estado español](https://www.dropbox.com/s/efrzk11n4mp62hb/Analisis%20Deuda%20EE%20PACD%20Definitivo.pdf)
+- [Informe sobre el rescate a la banca](http://auditoriaciudadana.net/docs/InformeRescatesBancarios.pdf)
+- [Informe sobre la política fiscal del Estado español](https://www.dropbox.com/s/045wemf22zyhby3/Informe%20Pol%C3%ADticas%20Fiscales.pdf)
+- [Informe sobre el gasto y la deuda militar](https://www.dropbox.com/s/ses4bwmlvxqzq77/Informe%20gasto%20y%20deuda%20militar%202013.pdf)
+
+***
+## Algunos logros
+### A nivel autonómico
+
+- [Grupo de auditoría de la sanidad](http://auditasanidad.org/)
+- [Informe sobre la privatización de la sanidad en la Comunidad de Madrid](https://drive.google.com/file/d/0Bxbsc23OVn-8SHVEMHpBNHV5VFlJZW0zZWg1V0VTVC1uYWIw/view?usp=sharing)
+
+***
+## Algunos logros
+### A nivel municipal
+
+- [Observatorios Ciudadanos Municipales](http://ocmunicipal.net/)
+- Red de municipios de Madrid por la Auditoría de la Deuda
+
 --- &vertical
 
 ## Objetivos de la PACD
-#### Más allá de una simple auditoría contable
+### Más allá de una simple auditoría contable
 
-- Ejercer el derecho a la información sobre las cuentas públicas.
-- Lograr una gestión de los recursos públicos transparente y comprensible. 
-- Democratizar la gestión de los recursos públicos.
-- Empoderar a la ciudadanía para liberarse del sometimiento de la deuda. 
-- Transformar el sistema económico y en particular la gestión de los recursos públicos para que ponga en el centro las necesidades de las personas. 
+> - Ejercer el derecho a la información sobre las cuentas públicas.
+> - Lograr una gestión de los recursos públicos transparente y comprensible. 
+> - Democratizar la gestión de los recursos públicos.
+> - Empoderar a la ciudadanía para liberarse del sometimiento de la deuda. 
+> - Transformar el sistema económico y en particular la gestión de los recursos públicos para que ponga en el centro las necesidades de las personas. 
 
 *** 
 
 ## Sostener los pilares de la democracia 
 
-<img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia">
+<img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia" height=500>
 
 --- &vertical
 
 ## ¿Qué es una Auditoría Ciudadana? 
 
-- Una herramienta para descubrir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.
+- Una herramienta de análisis crítica la política presupestaria, fiscal y de endeudamiento de un gobierno, y para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.
 - Es realizada por la ciudadanía (aunque debe contar con la ayuda de los técnicos de las administraciones públicas).
 - Además del aspecto financiero abarca otros aspectos:
   - Social
@@ -97,42 +143,6 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 
 - La ciudadanía es la única soberana para decidir sobre la ilegitimidad o no de un gasto o ingreso ejecutado en su territorio (Estado, región, ciudad o barrio).
 - Los instrumentos institucionales de control de la gestión de los recursos públicos son insuficientes y están viciados. El control debe ejercerse por la población.
-
----
-
-## ¿Qué auditar?
-
-- Liquidación de los presupuestos
-- Préstamos adquiridos
-- Infraestructuras construídas
-- Contrataciones públicas
-- Servicios prestados
-- Impuestos y tasas
-
----
-
-## La deuda del Ayuntamiento de Madrid
-
-```{r deuda_madrid, results='asis', tidy = F, message = F, echo = F}
-data = read.table("datos/deuda_ayuntamiento_madrid.csv", header = TRUE, sep=",")
-p1 <- nPlot(Deuda ~ Año, group="Alcalde", data = data, type = "multiBarChart")
-p1$chart(showControls = F)
-p1
-```
-
----
-
-## ¿A quién debemos?
-
-```{r acreedores_madrid, comment=NA, results='asis', tidy = F, message = F, echo = F}
-data = read.table("datos/acreedores_ayuntamiento_madrid.csv", header = TRUE, sep=",")
-#options(RCHART_WIDTH = 800, RCHART_HEIGHT = 400)
-p2 <- nPlot(Cantidad ~ Acreedor , data = data, type = "pieChart")
-# p2$chart(showControls = F)
-p2
-#p2$save('fig/deuda_madrid.html', cdn = TRUE)
-#cat('<iframe src="fig/deuda_madrid.html" width=100%, height=600></iframe>')
-```
 
 --- &vertical  
 
@@ -171,7 +181,7 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 
 <img src="assets/img/rcade.jpg" alt="Red Ciudadana por la Abolición de la Deuda Externa" width=120%>
 
---- ds:red &vertical
+--- ds:alert &vertical
 
 ## Deuda ilegítima
 
@@ -194,6 +204,187 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 ## Deuda insostenible
 
 > Una deuda cuyo pago implica para el Estado serias dificultades para cumplir con sus obligaciones referentes a los derechos humanos básicos, tales como los relacionados con la salud, la educación, el agua, las redes de saneamiento y la vivienda digna, o para invertir en infraestructuras públicas y programas necesarios para el desarrollo económico y social, provocando un deterioro en las condiciones de vida de la población.
+
+***
+
+## Deuda ilegítima
+<iframe width="853" height="480" src="https://www.youtube.com/embed/y9ZUc_A0vWM" frameborder="0" allowfullscreen></iframe>
+
+
+--- &vertical
+
+## La deuda del Ayuntamiento de Madrid
+
+```{r deuda_madrid, results='asis', tidy = F, message = F, echo = F}
+data = read.table("datos/deuda_ayuntamiento_madrid.csv", header = TRUE, sep=",")
+p1 <- nPlot(Deuda ~ Año, group="Alcalde", data = data, type = "multiBarChart")
+p1$chart(showControls = F)
+p1
+```
+<span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span>
+
+***
+
+## ¿A quién debemos?
+
+```{r acreedores_madrid, comment=NA, results='asis', tidy = F, message = F, echo = F}
+data = read.table("datos/acreedores_ayuntamiento_madrid.csv", header = TRUE, sep=",")
+#options(RCHART_WIDTH = 800, RCHART_HEIGHT = 400)
+p2 <- nPlot(Cantidad ~ Acreedor , data = data, type = "pieChart")
+# p2$chart(showControls = F)
+p2
+#p2$save('fig/deuda_madrid.html', cdn = TRUE)
+#cat('<iframe src="fig/deuda_madrid.html" width=100%, height=600></iframe>')
+```
+<span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span>
+
+--- &vertical
+
+## ¿Cómo se ha generado la deuda?
+
+Coste de algunos "elefantes blancos" (millones €)
+```{r }
+data = read.table("datos/infraestructuras_madrid.csv", header = TRUE, sep=",")
+colnames(data) <- c("Infraestructura", "Presupuesto inicial", "Coste final", "Desviación")
+tmp <- htmlTable(data, align="lrrr", rnames=FALSE, css.class="colortable", 
+  tfoot="<span class=\"footnote\">Fuente: El Confidencial y El País</span>")
+(tmp <- gsub('<td', '<td nowrap="nowrap"; ', tmp))
+```
+
+<!--
+
+*** =pnotes
+
+- El precio de la licitación de la M-30 se elevó hasta los 4.250 millones de €.El coste de los 10.406 millones de euros incluye los intereses a pagar hasta 2040.
+- La obra del centro acuático está parada desde 2010 por motivos económicos. Presupuesto inicial de 137 millones de euros.
+- FCC exige 33 millones más debido a sobrecoste adicional de la caja mágica.
+-->
+
+*** 
+
+## El caso de la Caja Mágica
+
+<img src="assets/img/caja_magica.jpg" alt="La caja mágica de Madrid">
+
+***
+
+## El caso de la Caja Mágica
+### Indicios de ilegitimidad
+
+- Sobrecoste: 154 millones €.
+- Coste mantenimiento: 1,35 millones € /año &rArr; Pérdidas anuales.
+- Concebida para el deporte de élite.
+- Sólo se usa para el open de tenis de Madrid. 
+- Concesión a empresas privadas para gimnasio y otros eventos ([MOMO Spot Club](http://momosportsclub.com/momo-caja-magica))
+- Falta de instalaciones deportivas de base en el distrito. 
+
+***
+
+## El coste de oportunidad 
+
+Con 154 millones de € se podría haber construido: 
+
+<table class="plain">
+<tr class="fragment">
+  <td style="vertical-align: middle">5 polideportivos</td>
+  <td><img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 bibliotecas</td>
+  <td><img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 escuelas<br/>infantiles</td>
+  <td><img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 Centros de<br/>mayores</td>
+  <td><img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">1 parque de 30 Ha</td>
+  <td><img src="assets/img/parque.jpg" alt="Parque" height=70></td>
+</tr>
+</table>
+
+***
+
+## El caso del soterramiento de la M-30
+
+<img src="assets/img/m30.jpg" alt="Obras de soterramiento de la M-30">
+
+***
+
+## El caso del soterramiento de la M-30
+### Indicios de ilegitimidad
+
+- Sobrecoste: 8076 millones € (2750 € por habitante).
+- Mantenimiento subcontratado a la empresa Calle 30 (80% pública, 20% Ferrovial y Dragados)
+  - Pago anual a Calle 30: 125 millones €/año.
+  - Coste estimado real de mantenimiento: 37.5 millones €/año.
+  - Beneficios para Ferrovial y Dragados desde 2005: 39,8 millones € (dividendos) 66,4 millones € (intereses préstamo inicial de 125 millones de € a tipo fijo)
+  - IVA desde 2005: 298,78 millones €.
+  - Impuesto de sociedades desde 2008: 106 millones €.
+  
+*** 
+
+## El caso del soterramiento de la M-30
+#### Sobrecoste del mantenimiento (millones €)
+
+```{r coste_mantenimiento_m30, comment=NA, results='asis', tidy = F, message = F, echo = F}
+data <- read.table("datos/sobrecoste_mantenimiento_m30.csv", header = TRUE, sep=",")
+colnames(data) <- c("Pagos", seq(2006,2014))
+require(reshape)
+data <- melt(data, id=c("Pagos")) 
+colnames(data) <- c("Pagos", "Año", "Cantidad")
+data[["Cantidad"]] <- data[["Cantidad"]]/1000000
+p3 <- nPlot(Cantidad ~ Año, group="Pagos", data = data, type = "multiBarChart")
+p3
+```
+
+***
+
+## El caso del soterramiento de la M-30
+### Indicios de ilegitimidad
+
+- Declarada ilegal por el tribunal de justicia de la UE por no realizar evaluación ambiental.
+- Emisiones de PM10  y de NO2.
+- Eliminación de 13000 árboles.
+- Vertidos contaminantes al río Manzanares. 
+- Daños irreversibles al patrimorio histórico (puente de Toledo, puente de Segovia).
+- Incremento de la recaudación para pagar la deuda (incremento del IBI un 200% y creación tasa de basuras).
+
+
+*** 
+
+## ¿Qué auditar? 
+
+> - .fragment Liquidación de los presupuestos
+> - .fragment Préstamos adquiridos
+> - .fragment Infraestructuras construídas
+> - .fragment Contrataciones públicas
+> - .fragment Servicios prestados
+> - .fragment Impuestos y tasas
 
 ---
 

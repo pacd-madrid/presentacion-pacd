@@ -1,0 +1,41 @@
+/* HEADERS */
+.reveal h2 {
+    color: #FF9900;
+}
+
+.reveal h3 {
+    color: #FF99FF;
+    /* color: #FFFF99; */
+}
+
+.reveal h1,h2,h3 {
+/*    text-align: left; */
+    padding-bottom: 10px;
+    font-family: Impact, sans-serif;
+} 
+
+/* TABLES */
+table.colortable tr:hover{
+    background-color: #FF3333;
+}
+
+/* 
+table.colortable tr:nth-child(even) {
+    background-color: #333333;
+}
+*/
+
+table.colortable th{
+    font-weight: normal;
+    background-color: #333333;
+}
+
+table.plain td{
+    border-bottom: 0;
+}
+
+/* FOOTNOTES */
+
+span.footnote {
+    font-size: 50%;
+}

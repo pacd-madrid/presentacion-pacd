@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
-  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/customization.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
 <link rel="stylesheet" href = "assets/css/slidify-reveal.css">
 
 </head>
@@ -29,33 +30,116 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 </section>
-<section class='' data-state='' id='slide-2'>
-  <h2>¿Qué es la PACD?</h2>
-  <p>PACD son las siglas de Plataforma Auditoría Ciudadana de la Deuda</p>
+<section>
+   <section class='' data-state=''>
+    <h2>¿Qué es la PACD?</h2>
+    <p>PACD son las siglas de Plataforma Auditoría Ciudadana de la Deuda</p>
 
-<ul>
-<li>Plataforma: Un espacio de participación abierto, no institucional y no vinculado a partidos políticos.</li>
-<li>Ciudadana: Formado por personas no dependientes de las instituciones que habitan un territorio.</li>
-<li>Auditoría: Para realizar un análisis y explicación de las cuentas públicas con la máxima transparencia y pedagogía.</li>
-<li>Deuda: Centrada en los gastos, ingresos y el endeudamiento de las administraciones públicas. </li>
+<ul class = "build incremental">
+<li><strong>Plataforma</strong>: Un espacio de participación abierto, no institucional y no vinculado a partidos políticos.</li>
+<li><strong>Ciudadana</strong>: Formado por personas y colectivos no dependientes de las instituciones que habitan un territorio.</li>
+<li><strong>Auditoría</strong>: Para realizar un análisis y explicación de las cuentas públicas con la máxima transparencia y pedagogía.</li>
+<li><strong>Deuda</strong>: Centrada en los gastos, ingresos y el endeudamiento de las administraciones públicas. </li>
 </ul>
 
-</section>
-<section class='' data-state='' id='slide-3'>
-  <h2>Origen de la PACD</h2>
-  <p>La PACD surge a principios de 2012 como reacción ciudadana a la crisis de la deuda y los recortes de derechos derivada de ella. </p>
+<!-- Incremental lists -->
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Origen de la PACD</h2>
+
+<p>La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a la crisis de la deuda y los recortes de derechos derivada de ella. </p>
 
 <p>Desde entonces se ha extendido por todo el territorio del Estado español.</p>
 
 <p><img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD"></p>
 
+<!-- *** -->
+
+<!-- ```{r echo=F, results='asis'} -->
+
+<!-- #require(leaflet) -->
+
+<!-- map <- Leaflet$new() -->
+
+<!-- map$setView(c(39.5,-3.5), zoom = 6) -->
+
+<!-- map$marker( -->
+
+<!--   c(40.4381311,-3.8196242), -->
+
+<!--   bindPopup = '<p>PACD Madrid<br>pacd.madrid@gmail.com</p>' -->
+
+<!-- ) -->
+
+<!-- map$set(height=600) -->
+
+<!-- map -->
+
+<!-- ``` -->
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Algunos logros</h2>
+
+<h3>A nivel estatal</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/efrzk11n4mp62hb/Analisis%20Deuda%20EE%20PACD%20Definitivo.pdf">Análisis de la deuda del Estado español</a></li>
+<li><a href="http://auditoriaciudadana.net/docs/InformeRescatesBancarios.pdf">Informe sobre el rescate a la banca</a></li>
+<li><a href="https://www.dropbox.com/s/045wemf22zyhby3/Informe%20Pol%C3%ADticas%20Fiscales.pdf">Informe sobre la política fiscal del Estado español</a></li>
+<li><a href="https://www.dropbox.com/s/ses4bwmlvxqzq77/Informe%20gasto%20y%20deuda%20militar%202013.pdf">Informe sobre el gasto y la deuda militar</a></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Algunos logros</h2>
+
+<h3>A nivel autonómico</h3>
+
+<ul>
+<li><a href="http://auditasanidad.org/">Grupo de auditoría de la sanidad</a></li>
+<li><a href="https://drive.google.com/file/d/0Bxbsc23OVn-8SHVEMHpBNHV5VFlJZW0zZWg1V0VTVC1uYWIw/view?usp=sharing">Informe sobre la privatización de la sanidad en la Comunidad de Madrid</a></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Algunos logros</h2>
+
+<h3>A nivel municipal</h3>
+
+<ul>
+<li><a href="http://ocmunicipal.net/">Observatorios Ciudadanos Municipales</a></li>
+<li>Red de municipios de Madrid por la Auditoría de la Deuda</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section>
    <section class='' data-state=''>
     <h2>Objetivos de la PACD</h2>
-    <h4>Más allá de una simple auditoría contable</h4>
+    <h3>Más allá de una simple auditoría contable</h3>
 
-<ul>
+<ul class = "build incremental">
 <li>Ejercer el derecho a la información sobre las cuentas públicas.</li>
 <li>Lograr una gestión de los recursos públicos transparente y comprensible. </li>
 <li>Democratizar la gestión de los recursos públicos.</li>
@@ -70,7 +154,7 @@
    <section class='' data-state=''>
     <h2>Sostener los pilares de la democracia</h2>
 
-<p><img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia"></p>
+<p><img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia" height=500></p>
 
     <aside class='notes'>
       
@@ -81,7 +165,7 @@
    <section class='' data-state=''>
     <h2>¿Qué es una Auditoría Ciudadana?</h2>
     <ul>
-<li>Una herramienta para descubrir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.</li>
+<li>Una herramienta de análisis crítica la política presupestaria, fiscal y de endeudamiento de un gobierno, y para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.</li>
 <li>Es realizada por la ciudadanía (aunque debe contar con la ayuda de los técnicos de las administraciones públicas).</li>
 <li>Además del aspecto financiero abarca otros aspectos:
 
@@ -109,28 +193,6 @@
       
     </aside>
    </section>
-</section>
-<section class='' data-state='' id='slide-6'>
-  <h2>¿Qué auditar?</h2>
-  <ul>
-<li>Liquidación de los presupuestos</li>
-<li>Préstamos adquiridos</li>
-<li>Infraestructuras construídas</li>
-<li>Contrataciones públicas</li>
-<li>Servicios prestados</li>
-<li>Impuestos y tasas</li>
-</ul>
-
-</section>
-<section class='' data-state='' id='slide-7'>
-  <h2>La deuda del Ayuntamiento de Madrid</h2>
-  <p><iframe src=' assets/fig/deuda_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84f0685d4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
-
-</section>
-<section class='' data-state='' id='slide-8'>
-  <h2>¿A quién debemos?</h2>
-  <p><iframe src=' assets/fig/acreedores_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84d48f44 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
-
 </section>
 <section>
    <section class='' data-state=''>
@@ -190,7 +252,7 @@
    </section>
 </section>
 <section>
-   <section class='' data-state='red'>
+   <section class='' data-state='alert'>
     <h2>Deuda ilegítima</h2>
     <blockquote>
 <p>Aquella contraída sin contar con la población y que vulnera derechos humanos, sociales, económicos, culturales, medioambientales o de género de una parte de la población en favor de los intereses de una minoría.</p>
@@ -233,8 +295,262 @@
       
     </aside>
    </section>
+   <section class='' data-state=''>
+    <h2>Deuda ilegítima</h2>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/y9ZUc_A0vWM" frameborder="0" allowfullscreen></iframe>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
-<section class='' data-state='' id='slide-11'>
+<section>
+   <section class='' data-state=''>
+    <h2>La deuda del Ayuntamiento de Madrid</h2>
+    <p><iframe src=' assets/fig/deuda_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart20eb7cf28d4d ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>¿A quién debemos?</h2>
+
+<p><iframe src=' assets/fig/acreedores_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84d48f44 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>¿Cómo se ha generado la deuda?</h2>
+    <p>Coste de algunos &quot;elefantes blancos&quot; (millones €)</p>
+
+<table class='colortable' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
+<thead>
+<tr>
+<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Infraestructura</th>
+<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Presupuesto inicial</th>
+<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Coste final</th>
+<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Desviación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap="nowrap";  style='text-align: left;'>M30</td>
+<td nowrap="nowrap";  style='text-align: right;'>1700</td>
+<td nowrap="nowrap";  style='text-align: right;'>10406</td>
+<td nowrap="nowrap";  style='text-align: right;'>8706</td>
+</tr>
+<tr>
+<td nowrap="nowrap";  style='text-align: left;'>Palacio de Cibeles</td>
+<td nowrap="nowrap";  style='text-align: right;'>40</td>
+<td nowrap="nowrap";  style='text-align: right;'>120+328</td>
+<td nowrap="nowrap";  style='text-align: right;'>408</td>
+</tr>
+<tr>
+<td nowrap="nowrap";  style='text-align: left;'>Centro Acuático</td>
+<td nowrap="nowrap";  style='text-align: right;'></td>
+<td nowrap="nowrap";  style='text-align: right;'>54,5</td>
+<td nowrap="nowrap";  style='text-align: right;'>54,5</td>
+</tr>
+<tr>
+<td nowrap="nowrap";  style='text-align: left;'>Caja Mágica</td>
+<td nowrap="nowrap";  style='text-align: right;'>140</td>
+<td nowrap="nowrap";  style='text-align: right;'>294</td>
+<td nowrap="nowrap";  style='text-align: right;'>154</td>
+</tr>
+<tr>
+<td nowrap="nowrap";  style='border-bottom: 2px solid grey; text-align: left;'>TOTAL</td>
+<td nowrap="nowrap";  style='border-bottom: 2px solid grey; text-align: right;'>1880</td>
+<td nowrap="nowrap";  style='border-bottom: 2px solid grey; text-align: right;'>11202,5</td>
+<td nowrap="nowrap";  style='border-bottom: 2px solid grey; text-align: right;'>9322,5</td>
+</tr>
+</tbody>
+<tfoot><tr><td nowrap="nowrap";  colspan='4'>
+<span class="footnote">Fuente: El Confidencial y El País</span></td></tr></tfoot>
+</table>
+
+<p>&lt;!--</p>
+
+    <aside class='notes'>
+      <ul>
+<li>El precio de la licitación de la M-30 se elevó hasta los 4.250 millones de €.El coste de los 10.406 millones de euros incluye los intereses a pagar hasta 2040.</li>
+<li>La obra del centro acuático está parada desde 2010 por motivos económicos. Presupuesto inicial de 137 millones de euros.</li>
+<li>FCC exige 33 millones más debido a sobrecoste adicional de la caja mágica.
+--&gt;</li>
+</ul>
+,NA,NA,<ul>
+<li>El precio de la licitación de la M-30 se elevó hasta los 4.250 millones de €.El coste de los 10.406 millones de euros incluye los intereses a pagar hasta 2040.</li>
+<li>La obra del centro acuático está parada desde 2010 por motivos económicos. Presupuesto inicial de 137 millones de euros.</li>
+<li>FCC exige 33 millones más debido a sobrecoste adicional de la caja mágica.
+--&gt;</li>
+</ul>
+,pnotes
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso de la Caja Mágica</h2>
+
+<p><img src="assets/img/caja_magica.jpg" alt="La caja mágica de Madrid"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso de la Caja Mágica</h2>
+
+<h3>Indicios de ilegitimidad</h3>
+
+<ul>
+<li>Sobrecoste: 154 millones €.</li>
+<li>Coste mantenimiento: 1,35 millones € /año &rArr; Pérdidas anuales.</li>
+<li>Concebida para el deporte de élite.</li>
+<li>Sólo se usa para el open de tenis de Madrid. </li>
+<li>Concesión a empresas privadas para gimnasio y otros eventos (<a href="http://momosportsclub.com/momo-caja-magica">MOMO Spot Club</a>)</li>
+<li>Falta de instalaciones deportivas de base en el distrito. </li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El coste de oportunidad</h2>
+
+<p>Con 154 millones de € se podría haber construido: </p>
+
+<table class="plain">
+<tr class="fragment">
+  <td style="vertical-align: middle">5 polideportivos</td>
+  <td><img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+      <img src="assets/img/polideportivo.jpg" alt="Polideportivo" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 bibliotecas</td>
+  <td><img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+      <img src="assets/img/biblioteca.jpg" alt="Biblioteca" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 escuelas<br/>infantiles</td>
+  <td><img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+      <img src="assets/img/guarderia.jpg" alt="Guardería" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">5 Centros de<br/>mayores</td>
+  <td><img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+      <img src="assets/img/centro_mayores.jpg" alt="Centro de mayores" height=70>
+  </td>
+</tr>
+<tr class="fragment">
+  <td style="vertical-align: middle">1 parque de 30 Ha</td>
+  <td><img src="assets/img/parque.jpg" alt="Parque" height=70></td>
+</tr>
+</table>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso del soterramiento de la M-30</h2>
+
+<p><img src="assets/img/m30.jpg" alt="Obras de soterramiento de la M-30"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso del soterramiento de la M-30</h2>
+
+<h3>Indicios de ilegitimidad</h3>
+
+<ul>
+<li>Sobrecoste: 8076 millones € (2750 € por habitante).</li>
+<li>Mantenimiento subcontratado a la empresa Calle 30 (80% pública, 20% Ferrovial y Dragados)
+
+<ul>
+<li>Pago anual a Calle 30: 125 millones €/año.</li>
+<li>Coste estimado real de mantenimiento: 37.5 millones €/año.</li>
+<li>Beneficios para Ferrovial y Dragados desde 2005: 39,8 millones € (dividendos) 66,4 millones € (intereses préstamo inicial de 125 millones de € a tipo fijo)</li>
+<li>IVA desde 2005: 298,78 millones €.</li>
+<li>Impuesto de sociedades desde 2008: 106 millones €.</li>
+</ul></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso del soterramiento de la M-30</h2>
+
+<h4>Sobrecoste del mantenimiento (millones €)</h4>
+
+<p><iframe src=' assets/fig/coste_mantenimiento_m30-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart20eb54a5713a ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>El caso del soterramiento de la M-30</h2>
+
+<h3>Indicios de ilegitimidad</h3>
+
+<ul>
+<li>Declarada ilegal por el tribunal de justicia de la UE por no realizar evaluación ambiental.</li>
+<li>Emisiones de PM10  y de NO2.</li>
+<li>Eliminación de 13000 árboles.</li>
+<li>Vertidos contaminantes al río Manzanares. </li>
+<li>Daños irreversibles al patrimorio histórico (puente de Toledo, puente de Segovia).</li>
+<li>Incremento de la recaudación para pagar la deuda (incremento del IBI un 200% y creación tasa de basuras).</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>¿Qué auditar?</h2>
+
+<ul class = "build incremental">
+<li class='fragment'>Liquidación de los presupuestos</li>
+<li class='fragment'>Préstamos adquiridos</li>
+<li class='fragment'>Infraestructuras construídas</li>
+<li class='fragment'>Contrataciones públicas</li>
+<li class='fragment'>Servicios prestados</li>
+<li class='fragment'>Impuestos y tasas</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-9'>
   <h2>Gracias por su atención</h2>
   <p><img src="assets/img/nodebemos_nopagamos.jpg" alt="No debemos, no pagamos"></p>
 

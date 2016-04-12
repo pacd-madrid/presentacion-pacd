@@ -4,3 +4,6 @@ slidify
 ggplot2
 rCharts
 knitr
+xtable
+htmlTable
+reshape

@@ -437,10 +437,9 @@ body {
 .reveal .roll {
 	display: inline-block;
 	line-height: 1.2;
-	overflow: hidden;
-
-	vertical-align: top;
-
+/*	overflow: hidden;
+        vertical-align: top;
+*/
 	-webkit-perspective: 400px;
 	   -moz-perspective: 400px;
 	    -ms-perspective: 400px;

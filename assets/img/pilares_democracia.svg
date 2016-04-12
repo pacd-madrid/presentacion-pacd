@@ -5,133 +5,137 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   height="635.22485"
-   width="612.42084"
    version="1.1"
-   viewBox="0 0 612.42086 635.22485"
-   id="svg224237">
-  <defs
-     id="defs14" />
-  <g
-     transform="translate(-178.02886,-185.65206)"
-     id="layer1">
-    <g
-       transform="matrix(1.5771,0,0,1.5771,-2453.2,-1633.1)"
-       id="g224212">
-      <rect
-         x="2097.9395"
-         y="141.43738"
-         width="61.098843"
-         height="268.52338"
-         transform="matrix(0.85608073,0.51684212,-0.30639821,0.95190343,0,0)"
-         rx="26.383703"
-         style="fill:#ff6600;stroke:#000000;stroke-width:9.640872;stroke-miterlimit:4;stroke-dasharray:none"
-         ry="37.627396"
-         id="rect224206" />
-      <rect
-         x="1771.4111"
-         y="1456.8502"
-         width="57.309826"
-         height="278.95999"
-         transform="matrix(0.99449106,-0.1048214,0.05610668,0.99842478,0,0)"
-         rx="24.74753"
-         style="fill:#ff6600;stroke:#000000;stroke-width:9.51681232;stroke-miterlimit:4;stroke-dasharray:none"
-         ry="39.089848"
-         id="rect224208" />
-      <rect
-         x="1596.2852"
-         y="1981.4077"
-         width="59.871761"
-         height="272.02261"
-         ry="38.117733"
-         rx="25.853827"
-         transform="matrix(0.90029937,-0.43527123,0.24960566,0.96834757,0,0)"
-         style="fill:#ff6600;stroke:#000000;stroke-width:9.60549068;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect224210" />
-      <g
-         transform="matrix(2.9544642,0,0,2.9544642,-3268.4209,-2857.2582)"
-         style="fill:#ff6600;stroke-width:3.21923947;stroke-miterlimit:4;stroke-dasharray:none"
-         id="g224202">
-        <path
-           transform="translate(0,8.7521)"
-           d="m 1795.4,1373.7 c 0,6.9052 -25.19,12.503 -56.264,12.503 -31.074,0 -56.264,-5.5978 -56.264,-12.503 0,-6.9053 -7.9429,-25.006 56.264,-12.503 64.832,-10.628 56.264,5.5978 56.264,12.503 z"
-           style="fill:#ff6600;stroke:#000000;stroke-width:3.21923947;stroke-miterlimit:4;stroke-dasharray:none"
-           id="path224195" />
-        <ellipse
-           style="fill:#ff6600;stroke:#000000;stroke-width:3.21923947;stroke-miterlimit:4;stroke-dasharray:none"
-           id="path224193"
-           cx="1739.1746"
-           cy="1373.6907"
-           rx="56.263737"
-           ry="12.503053" />
-      </g>
-      <text
-         id="text4142"
-         y="1212.4142"
-         x="1762.4454"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.62969971px;line-height:125%;font-family:Androgyne;-inkscape-font-specification:'Androgyne, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1212.4142"
-           x="1762.4454"
-           id="tspan4144">Democracia</tspan></text>
-      <text
-         transform="matrix(0.30696805,-0.95171982,0.95171982,0.30696805,0,0)"
-         id="text4142-6"
-         y="2084.3062"
-         x="-862.27368"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.62969971px;line-height:125%;font-family:Androgyne;-inkscape-font-specification:'Androgyne, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan4178"
-           y="2084.3062"
-           x="-862.27368">Formación</tspan></text>
-      <text
-         transform="matrix(-0.0668502,-0.99776302,0.99776302,-0.0668502,0,0)"
-         id="text4142-6-2"
-         y="1793.9176"
-         x="-1646.7787"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.62969971px;line-height:125%;font-family:Androgyne;-inkscape-font-specification:'Androgyne, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan4178-3"
-           y="1793.9176"
-           x="-1646.7787">Participación</tspan></text>
-      <text
-         transform="matrix(-0.27998431,-0.96000458,0.96000458,-0.27998431,0,0)"
-         id="text4142-6-2-1"
-         y="1550.5769"
-         x="-1935.621"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.62969971px;line-height:125%;font-family:Androgyne;-inkscape-font-specification:'Androgyne, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan4218"
-           y="1550.5769"
-           x="-1935.621">Control</tspan></text>
-    </g>
-  </g>
+   width="179.33333mm"
+   viewBox="0 0 41.468519 41.25347"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   space="preserve"
+   id="svg2"
+   height="178.40352mm">
   <metadata
-     id="metadata12">
+     id="metadata3">
     <rdf:RDF>
-      <cc:Work>
+      <cc:Work
+         rdf:about="">
+        <dc:title></dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>government</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>law</rdf:li>
+            <rdf:li>parliament</rdf:li>
+            <rdf:li>state</rdf:li>
+            <rdf:li>capitol</rdf:li>
+            <rdf:li>president</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mo</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>mo</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>18 09 2005</dc:date>
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:publisher>
-          <cc:Agent
-             rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title></dc:title>
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+         rdf:about="http://web.resource.org/cc/PublicDomain">
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
+           rdf:resource="http://web.resource.org/cc/Distribution" />
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style6">
+   
+    .fil0 {fill:#EF7900}
+   
+  </style>
+  </defs>
+  <path
+     class="fil0"
+     d="m 6.5721324,15.572249 3.5237106,0 0.541665,18.963477 -4.5394657,1.48e-4 0.4740901,-18.963669 z m -3.3209776,19.645179 34.9660882,0 0,2.439939 2.09509,0 -1.48e-4,2.439938 -39.1559995,-10e-7 0,-2.439938 2.094943,0 0,-2.439938 z M 40.040828,10.277417 20.733815,1.1561616 1.4264819,10.277417 l 1.478e-4,1.49117 38.6141543,1.47e-4 0,-1.491316 z m -34.8921616,2.173467 31.1711926,0 0,2.439497 -31.1711926,0 z m 26.1560116,3.121346 3.523711,0 0.541812,18.963669 -4.539466,-1.48e-4 0.473937,-18.963477 z m -12.315008,0 3.523564,-1.47e-4 0.542106,18.963668 -4.53976,0 0.47409,-18.963477 z"
+     id="path10"
+     style="fill:#666666" />
+  <text
+     id="text4137"
+     y="37.970058"
+     x="-3.2274318"
+     style="font-style:normal;font-weight:normal;font-size:2.61040998px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="37.970058"
+       x="-3.2274318"
+       id="tspan4139" /></text>
+  <text
+     transform="matrix(0,-1.0000001,0.99999991,0,0,0)"
+     id="text4150"
+     y="9.2103148"
+     x="-31.255238"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.61040998px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="9.2103148"
+       x="-31.255238"
+       id="tspan4152">Educación</tspan></text>
+  <text
+     transform="matrix(0,-1.0000001,0.9999999,0,0,0)"
+     id="text4150-2"
+     y="21.4918"
+     x="-33.024403"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.61040998px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+     xml:space="preserve"><tspan
+       y="21.4918"
+       x="-33.024403"
+       id="tspan4152-1">Participación</tspan></text>
+  <text
+     transform="matrix(0,-1.0000001,0.9999999,0,0,0)"
+     id="text4150-8"
+     y="33.987011"
+     x="-29.768608"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.61040998px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+     xml:space="preserve"><tspan
+       y="33.987011"
+       x="-29.768608"
+       id="tspan4152-2">Control</tspan></text>
+  <text
+     id="text4180"
+     y="39.263447"
+     x="8.6171446"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.91561484px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="39.263447"
+       x="8.6171446"
+       id="tspan4182">CIUDADANÍA</tspan></text>
+  <text
+     id="text4180-1"
+     y="10.40092"
+     x="7.7288203"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.9156146px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+     xml:space="preserve"><tspan
+       y="10.40092"
+       x="7.7288203"
+       id="tspan4182-9">DEMOCRACIA</tspan></text>
 </svg>
