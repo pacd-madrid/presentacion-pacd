@@ -31,7 +31,7 @@ knit        : slidify::knit2slides
 ```{r echo=F}
 require(knitr)
 require(rCharts)
-require(xtable)
+require(htmlwidgets)
 require(htmlTable)
 knitr::opts_chunk$set(comment=NA, results='asis', tidy=F, message=T, cache=F, echo=F)
 options(RCHART_WIDTH=800, RCHART_HEIGHT=400, xtable.type='html')
@@ -67,7 +67,7 @@ La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a 
 
 Desde entonces se ha extendido por todo el territorio del Estado español.
 
-<img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD">
+<img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD" height=300>
 
 <!-- *** -->
 
@@ -129,7 +129,7 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 
 ## ¿Qué es una Auditoría Ciudadana? 
 
-- Una herramienta de análisis crítica la política presupestaria, fiscal y de endeudamiento de un gobierno, y para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.
+- Una herramienta de análisis crítico de la política presupestaria, fiscal y de endeudamiento de un gobierno, para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.
 - Es realizada por la ciudadanía (aunque debe contar con la ayuda de los técnicos de las administraciones públicas).
 - Además del aspecto financiero abarca otros aspectos:
   - Social
@@ -375,16 +375,85 @@ p3
 - Incremento de la recaudación para pagar la deuda (incremento del IBI un 200% y creación tasa de basuras).
 
 
-*** 
+---
 
 ## ¿Qué auditar? 
 
-> - .fragment Liquidación de los presupuestos
-> - .fragment Préstamos adquiridos
-> - .fragment Infraestructuras construídas
-> - .fragment Contrataciones públicas
-> - .fragment Servicios prestados
-> - .fragment Impuestos y tasas
+- .fragment Liquidación de los presupuestos
+- .fragment Préstamos adquiridos
+- .fragment Infraestructuras construídas
+- .fragment Contrataciones públicas
+- .fragment Servicios prestados
+- .fragment Impuestos y tasas
+
+<!-- --- -->
+
+<!-- ## Metodología de trabajo para los distritos -->
+
+<!-- ```{r cache=F} -->
+<!-- require(DiagrammeR) -->
+<!-- dg1 <-DiagrammeR::grViz(" -->
+<!--   digraph neato { -->
+
+
+<!--     rankdir=LR; -->
+<!--     node[width=1,height=1,fixedsize=true]; -->
+
+<!--     { rank=same; B ; C} -->
+
+<!--     edge[weight=20]; -->
+<!--     A -> B [label='&beta;']; -->
+<!--     B -> O [label='&gamma;']; -->
+<!--     edge[weight=1]; -->
+
+<!--     C -> { B O } -->
+
+<!--     A -> O[label='&beta;&gamma;']; -->
+
+<!--     A[label='Assigned\ntreatment',shape=circle,fillcolor='lightblue',style='filled']; -->
+<!--     B[label='Actual\ntreatment',shape=circle,fillcolor='lightblue',style='filled']; -->
+<!--     C[label='Confounder',shape=circle,fillcolor='MistyRose',style='filled']; -->
+<!--     O[label='Outcome',shape=circle,fillcolor='lightblue',style='filled']; -->
+
+
+<!--   } -->
+<!-- ", width=650, height=600, engine="dot") -->
+<!-- saveWidget(dg1, 'diagrammer1.html') -->
+<!-- cat('<iframe src="./diagrammer1.html" width=100% height=100% allowtransparency="true"> </iframe>') -->
+<!-- ``` -->
+
+---
+
+## ¿Cómo puedo participar?
+
+> - Formándome (presupuestos, contratación pública, auditoría, nuevas tecnologías, etc.).
+> - Identificando casos de presuntas ilegitimidades en el barrio, distrito o ciudad.
+> - Recabar y socilitar información al Ayuntamiento (Subdirección General de Auditoría de la Deuda y Concejalías de distrito).
+> - Exigir al Ayuntamiento más transparencia (datos abiertos).
+> - Difundir los hallazgos y los resultados de la auditoría. 
+> - Presionar al Ayuntamiento para que audite los casos identificados y no page la deuda ilegitima.
+> - Extender el proceso a otros distritos o municipios.
+
+<!-- Incremental lists -->
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+--- 
+
+## ¿Qué ofrece la PACD?
+
+> - Formación (presupuestos, contratación pública, auditoría, nuevas tecnologías, etc.).
+> - Definición previa de ilegitimidad. 
+> - Ficha para detectar indicios de ilegitimidad.
+> - Observatorio Ciudadano Municipal de Madrid: http://ocm.madrid.tomalaplaza.net.
+> - El blog Madrid Audita Madrid: http://www.madridauditamadrid.org (formación, denuncia, difusión).
+> - Intercambio de experiencias de auditorías en otros municipios (Red de Municipios de Madrid por la Auditoría).
+
+<!-- Incremental lists -->
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
 
 ---
 

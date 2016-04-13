@@ -7,3 +7,5 @@ knitr
 xtable
 htmlTable
 reshape
+DiagrammeR
+htmlwidgets

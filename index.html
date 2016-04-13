@@ -59,7 +59,7 @@ $('ul.incremental li').addClass('fragment')
 
 <p>Desde entonces se ha extendido por todo el territorio del Estado español.</p>
 
-<p><img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD"></p>
+<p><img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD" height=300></p>
 
 <!-- *** -->
 
@@ -165,7 +165,7 @@ $('ul.incremental li').addClass('fragment')
    <section class='' data-state=''>
     <h2>¿Qué es una Auditoría Ciudadana?</h2>
     <ul>
-<li>Una herramienta de análisis crítica la política presupestaria, fiscal y de endeudamiento de un gobierno, y para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.</li>
+<li>Una herramienta de análisis crítico de la política presupestaria, fiscal y de endeudamiento de un gobierno, para decidir que gastos o ingresos, y la deuda generada por ellos, pueden considerarse ilegítimos y exigir su no pago.</li>
 <li>Es realizada por la ciudadanía (aunque debe contar con la ayuda de los técnicos de las administraciones públicas).</li>
 <li>Además del aspecto financiero abarca otros aspectos:
 
@@ -533,10 +533,10 @@ $('ul.incremental li').addClass('fragment')
       
     </aside>
    </section>
-   <section class='' data-state=''>
-    <h2>¿Qué auditar?</h2>
-
-<ul class = "build incremental">
+</section>
+<section class='' data-state='' id='slide-9'>
+  <h2>¿Qué auditar?</h2>
+  <ul>
 <li class='fragment'>Liquidación de los presupuestos</li>
 <li class='fragment'>Préstamos adquiridos</li>
 <li class='fragment'>Infraestructuras construídas</li>
@@ -545,12 +545,93 @@ $('ul.incremental li').addClass('fragment')
 <li class='fragment'>Impuestos y tasas</li>
 </ul>
 
-    <aside class='notes'>
-      
-    </aside>
-   </section>
+<!-- --- -->
+
+<!-- ## Metodología de trabajo para los distritos -->
+
+<!-- ```{r cache=F} -->
+
+<!-- require(DiagrammeR) -->
+
+<!-- dg1 <-DiagrammeR::grViz(" -->
+
+<!--   digraph neato { -->
+
+<!--     rankdir=LR; -->
+
+<!--     node[width=1,height=1,fixedsize=true]; -->
+
+<!--     { rank=same; B ; C} -->
+
+<!--     edge[weight=20]; -->
+
+<!--     A -> B [label='&beta;']; -->
+
+<!--     B -> O [label='&gamma;']; -->
+
+<!--     edge[weight=1]; -->
+
+<!--     C -> { B O } -->
+
+<!--     A -> O[label='&beta;&gamma;']; -->
+
+<!--     A[label='Assigned\ntreatment',shape=circle,fillcolor='lightblue',style='filled']; -->
+
+<!--     B[label='Actual\ntreatment',shape=circle,fillcolor='lightblue',style='filled']; -->
+
+<!--     C[label='Confounder',shape=circle,fillcolor='MistyRose',style='filled']; -->
+
+<!--     O[label='Outcome',shape=circle,fillcolor='lightblue',style='filled']; -->
+
+<!--   } -->
+
+<!-- ", width=650, height=600, engine="dot") -->
+
+<!-- saveWidget(dg1, 'diagrammer1.html') -->
+
+<!-- cat('<iframe src="./diagrammer1.html" width=100% height=100% allowtransparency="true"> </iframe>') -->
+
+<!-- ``` -->
+
 </section>
-<section class='' data-state='' id='slide-9'>
+<section class='' data-state='' id='slide-10'>
+  <h2>¿Cómo puedo participar?</h2>
+  <ul class = "build incremental">
+<li>Formándome (presupuestos, contratación pública, auditoría, nuevas tecnologías, etc.).</li>
+<li>Identificando casos de presuntas ilegitimidades en el barrio, distrito o ciudad.</li>
+<li>Recabar y socilitar información al Ayuntamiento (Subdirección General de Auditoría de la Deuda y Concejalías de distrito).</li>
+<li>Exigir al Ayuntamiento más transparencia (datos abiertos).</li>
+<li>Difundir los hallazgos y los resultados de la auditoría. </li>
+<li>Presionar al Ayuntamiento para que audite los casos identificados y no page la deuda ilegitima.</li>
+<li>Extender el proceso a otros distritos o municipios.</li>
+</ul>
+
+<!-- Incremental lists -->
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+</section>
+<section class='' data-state='' id='slide-11'>
+  <h2>¿Qué ofrece la PACD?</h2>
+  <ul class = "build incremental">
+<li>Formación (presupuestos, contratación pública, auditoría, nuevas tecnologías, etc.).</li>
+<li>Definición previa de ilegitimidad. </li>
+<li>Ficha para detectar indicios de ilegitimidad.</li>
+<li>Observatorio Ciudadano Municipal de Madrid: <a href="http://ocm.madrid.tomalaplaza.net">http://ocm.madrid.tomalaplaza.net</a>.</li>
+<li>El blog Madrid Audita Madrid: <a href="http://www.madridauditamadrid.org">http://www.madridauditamadrid.org</a> (formación, denuncia, difusión).</li>
+<li>Intercambio de experiencias de auditorías en otros municipios (Red de Municipios de Madrid por la Auditoría).</li>
+</ul>
+
+<!-- Incremental lists -->
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+</section>
+<section class='' data-state='' id='slide-12'>
   <h2>Gracias por su atención</h2>
   <p><img src="assets/img/nodebemos_nopagamos.jpg" alt="No debemos, no pagamos"></p>
 
