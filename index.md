@@ -30,12 +30,12 @@ knit        : slidify::knit2slides
 
 
 
-<img width="800px" src="assets/img/logos/logo_pacd_1200.png" alt="Plataforma Auditoría Ciudadana de la Deuda">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<img src="assets/img/logos/logo_pacd_1200.png" alt="Plataforma Auditoría Ciudadana de la Deuda" width="800px">
 
 http://auditoriaciudadana.net  
 [@AuditoriaMadrid](https://twitter.com/AuditoriaMadrid)
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 --- &vertical
 
@@ -58,9 +58,15 @@ $('ul.incremental li').addClass('fragment')
 ## Origen de la PACD
 La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a la crisis de la deuda y los recortes de derechos derivada de ella. 
 
+<img src="assets/img/encuentro_pacd.jpg" alt="Encuentro estatal de la PACD" width=800>
+
+***
+
+## ¿Dónde estamos?
+
 Desde entonces se ha extendido por todo el territorio del Estado español.
 
-<img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD" height=300>
+<img src="assets/img/mapa_pacd.png" alt="Red de nodos de la PACD" height=400>
 
 <!-- *** -->
 
@@ -114,7 +120,7 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 
 *** 
 
-## Sostener los pilares de la democracia 
+## Sostener los pilares de la Democracia 
 
 <img src="assets/img/pilares_democracia.svg" alt="Pilares de la democracia" height=500>
 
@@ -132,14 +138,14 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
   
 ***
 
-## ¿Por qué ciudadana?
+## ¿Por qué Ciudadana?
 
 - La ciudadanía es la única soberana para decidir sobre la ilegitimidad o no de un gasto o ingreso ejecutado en su territorio (Estado, región, ciudad o barrio).
 - Los instrumentos institucionales de control de la gestión de los recursos públicos son insuficientes y están viciados. El control debe ejercerse por la población.
 
 --- &vertical  
 
-## El concepto de ilegitimidad
+## El concepto de Ilegitimidad
 No es un concepto jurídico, sino **político**.
 
 Un concepto que evoluciona con el con el contexto social y que cada población debe construir. 
@@ -176,31 +182,31 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 
 --- ds:alert &vertical
 
-## Deuda ilegítima
+## Deuda Ilegítima
 
 > Aquella contraída sin contar con la población y que vulnera derechos humanos, sociales, económicos, culturales, medioambientales o de género de una parte de la población en favor de los intereses de una minoría.
 
 ***
 
-## Deuda ilegal
+## Deuda Ilegal
 
 > Aquella en cuya contratación hubo fraude de ley, bien porque no se siguieron los procedimientos legales apropiados, incluidos aquellos relativos a la autoridad para firmar o aprobar préstamos, títulos de deuda o garantías por parte de sectores o sucursales representantes del gobierno del Estado prestatario, bien porque hubo una clara mala conducta del prestamista, que incluya sobornos, coerción o una influencia indebida, o porque implicara condiciones que contravinieran leyes nacionales o internacionales, o las políticas públicas.
 
 ***
 
-## Deuda odiosa
+## Deuda Odiosa
 
 > Aquella contraída por un Estado de manera no democrática e injusta en contra de los intereses legítimos de la población, y que los prestamistas conocían o deberían haber conocido que se estaba incurriendo en una violación de los principios democráticos —consentimiento, participación, transparencia y responsabilidad—.
 
 ***
 
-## Deuda insostenible
+## Deuda Insostenible
 
 > Una deuda cuyo pago implica para el Estado serias dificultades para cumplir con sus obligaciones referentes a los derechos humanos básicos, tales como los relacionados con la salud, la educación, el agua, las redes de saneamiento y la vivienda digna, o para invertir en infraestructuras públicas y programas necesarios para el desarrollo económico y social, provocando un deterioro en las condiciones de vida de la población.
 
 ***
 
-## Deuda ilegítima
+## Deuda Ilegítima
 <iframe width="853" height="480" src="https://www.youtube.com/embed/y9ZUc_A0vWM" frameborder="0" allowfullscreen></iframe>
 
 
@@ -268,9 +274,7 @@ Coste de algunos "elefantes blancos" (millones €)
 <span class="footnote">Fuente: El Confidencial y El País</span></td></tr></tfoot>
 </table>
 
-<!--
-
-*** =pnotes
+<!-- Note
 
 - El precio de la licitación de la M-30 se elevó hasta los 4.250 millones de €.El coste de los 10.406 millones de euros incluye los intereses a pagar hasta 2040.
 - La obra del centro acuático está parada desde 2010 por motivos económicos. Presupuesto inicial de 137 millones de euros.
@@ -436,11 +440,11 @@ Con 154 millones de € se podría haber construido:
 
 > - Formándome (presupuestos, contratación pública, auditoría, nuevas tecnologías, etc.).
 > - Identificando casos de presuntas ilegitimidades en el barrio, distrito o ciudad.
-> - Recabar y socilitar información al Ayuntamiento (Subdirección General de Auditoría de la Deuda y Concejalías de distrito).
-> - Exigir al Ayuntamiento más transparencia (datos abiertos).
-> - Difundir los hallazgos y los resultados de la auditoría. 
-> - Presionar al Ayuntamiento para que audite los casos identificados y no page la deuda ilegitima.
-> - Extender el proceso a otros distritos o municipios.
+> - Recababando y socilitando información al Ayuntamiento (Subdirección General de Auditoría de la Deuda y Concejalías de distrito).
+> - Exigiendo al Ayuntamiento más transparencia (datos abiertos).
+> - Difundiendo los hallazgos y los resultados de la auditoría. 
+> - Presionando al Ayuntamiento para que audite los casos identificados y no page la deuda ilegitima.
+> - Extendiendo el proceso a otros distritos o municipios.
 
 <!-- Incremental lists -->
 <script>
@@ -465,6 +469,6 @@ $('ul.incremental li').addClass('fragment')
 
 ---
 
-## Gracias por su atención
+## ¡Gracias por su atención!
 
 <img src="assets/img/nodebemos_nopagamos.jpg" alt="No debemos, no pagamos">
