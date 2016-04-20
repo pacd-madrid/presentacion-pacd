@@ -93,8 +93,13 @@ table.colortable tr:nth-child(even) {
 */
 
 table.colortable th{
-    font-weight: normal;
+    font-weight: 400;
     background-color: #333333;
+    text-shadow: none;
+}
+
+table.centercontent td{
+    vertical-align: middle;
 }
 
 table.plain td{

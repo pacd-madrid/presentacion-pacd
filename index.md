@@ -62,6 +62,15 @@ La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a 
 
 ***
 
+## Antecedentes de la PACD
+
+- 15 M. Confluencia de movimientos sociales preocupados por la cuestión de la deuda en el Tercer Mundo.
+- REG, ¿Quién debe a quién?, CADTM, Ecologistas en acción, Economistas sin fronteras, etc. 
+- Crisis de la deuda en 2011-12: de la deuda de la periferia del mundo a la deuda en la periferia de Europa
+- Tratamiento del problema de la deuda en nuestro propio entorno.
+
+***
+
 ## ¿Dónde estamos?
 
 Desde entonces se ha extendido por todo el territorio del Estado español.
@@ -152,6 +161,24 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 
 ***
 
+## El concepto de ilegitimidad en perspectiva histórica
+### Henry David Thoreau y la desobediencia civil
+
+<table class="centercontent">
+  <tr>
+    <td>
+      <img src="assets/img/henry_david_thoreau.jpg" alt="Henry David Thoureau" width=400>
+    </td>
+    <td>
+      <img src="assets/img/grabado_esclavitud.jpg" alt="Esclavitud" width=400>
+      <br/><br/>
+      <img src="assets/img/guerra_secesion.jpg" alt="Guerra" width=400>
+    </td>
+  </tr>
+</table>
+
+***
+
 ### La esclavitud y los movimientos abolicionistas
 
 <img src="assets/img/esclavitud.jpg" alt="Esclavitud" height=500>
@@ -167,6 +194,25 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 ### Los derechos laborales y el movimiento obrero
 
 <img src="assets/img/movimiento_obrero.jpg" alt="Movimiento obrero" width=120%>
+
+***
+
+### La lucha por los derechos civiles y de liberación nacional
+
+<table class="centercontent">
+  <tr>
+    <td>
+      <img src="assets/img/martin_luther_king.jpg" alt="Martin Luther King" width=350>
+      <br/><br/>
+      <img src="assets/img/gandhi.jpg" alt="Gandhi" width=350>
+    </td>
+    <td>
+      <img src="assets/img/rosa_parks.jpg" alt="Rosa Parks" width=350>
+      <br/><br/>
+      <img src="assets/img/thomas_sankara.jpg" alt="Thomas Sankara" width=350>
+    </td>
+  </tr>
+</table>
 
 ***
 
