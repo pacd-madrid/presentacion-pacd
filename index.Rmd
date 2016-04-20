@@ -71,10 +71,15 @@ La PACD surge en marzo de 2012 como respuesta de la sociedad civil organizada a 
 
 ## Antecedentes de la PACD
 
-- 15 M. Confluencia de movimientos sociales preocupados por la cuestión de la deuda en el Tercer Mundo.
-- REG, ¿Quién debe a quién?, CADTM, Ecologistas en acción, Economistas sin fronteras, etc. 
-- Crisis de la deuda en 2011-12: de la deuda de la periferia del mundo a la deuda en la periferia de Europa
-- Tratamiento del problema de la deuda en nuestro propio entorno.
+> - 15 M. Confluencia de movimientos sociales preocupados por la cuestión de la deuda en el Tercer Mundo.
+> - REG, ¿Quién debe a quién?, CADTM, Ecologistas en acción, Economistas sin fronteras, etc. 
+> - Crisis de la deuda en 2011-12: de la deuda de la periferia del mundo a la deuda en la periferia de Europa
+> - Tratamiento del problema de la deuda en nuestro propio entorno.
+
+<!-- Incremental lists -->
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
 
 ***
 
