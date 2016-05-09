@@ -162,7 +162,7 @@ Desde entonces se ha extendido por todo el territorio del Estado español.
 ## El concepto de Ilegitimidad
 No es un concepto jurídico, sino **político**.
 
-Un concepto que evoluciona con el con el contexto social y que cada población debe construir. 
+Un concepto que evoluciona con el contexto social y que cada población debe construir. 
 
 ***
 
@@ -265,14 +265,14 @@ Un concepto que evoluciona con el con el contexto social y que cada población d
 
 ## La deuda del Ayuntamiento de Madrid
 
-<iframe src=' assets/fig/deuda_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart20eb7cf28d4d ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' assets/fig/deuda_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1eea31df3dcc ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 <span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span>
 
 ***
 
 ## ¿A quién debemos?
 
-<iframe src=' assets/fig/acreedores_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart16b84d48f44 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' assets/fig/acreedores_madrid-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1eea15bb91e ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 <span class="footnote">Fuente: Elaboración propia a partir de datos del Banco de España</span>
 
 --- &vertical
@@ -423,7 +423,7 @@ Con 154 millones de € se podría haber construido:
 ## El caso del soterramiento de la M-30
 #### Sobrecoste del mantenimiento (millones €)
 
-<iframe src=' assets/fig/coste_mantenimiento_m30-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart20eb54a5713a ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' assets/fig/coste_mantenimiento_m30-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chart1eea2f0a6dc4 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 ***
 
