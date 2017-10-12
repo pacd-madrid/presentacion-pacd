@@ -1,7 +1,7 @@
 ---
 title: Presentación PACD
 author: 
-mode : selfcontained
+mode : selfcontained #{standalone, draft, selfcontained}
 framework: revealjs
 revealjs: {theme: black, transition: convex, center: "true"}
 # url: {lib: "."}
@@ -28,16 +28,14 @@ knit        : slidify::knit2slides
 #     - {item: Publish, href: publish, icon: github}
 ---
 
-```{r echo=F}
+```{r echo=F, message=F}
 require(knitr)
-require(rCharts)
 require(htmlwidgets)
-require(htmlTable)
-knitr::opts_chunk$set(comment=NA, results='asis', tidy=F, message=T, cache=F, echo=F)
+knitr::opts_chunk$set(comment=F, results='asis', tidy=F, message=F, cache=F, echo=F)
 options(RCHART_WIDTH=800, RCHART_HEIGHT=400, xtable.type='html')
 ```
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <img src="assets/img/logos/logo_pacd_1200.png" alt="Plataforma Auditoría Ciudadana de la Deuda" width="800px">
 
@@ -272,7 +270,8 @@ Un concepto que evoluciona con el contexto social y que cada población debe con
 
 ## La deuda del Ayuntamiento de Madrid
 
-```{r deuda_madrid, results='asis', tidy = F, message = F, echo = F}
+```{r deuda_madrid, results='asis', echo=F}
+require(rCharts)
 data = read.table("datos/deuda_ayuntamiento_madrid.csv", header = TRUE, sep=",")
 p1 <- nPlot(Deuda ~ Año, group="Alcalde", data = data, type = "multiBarChart")
 p1$chart(showControls = F)
@@ -284,11 +283,10 @@ p1
 
 ## ¿A quién debemos?
 
-```{r acreedores_madrid, comment=NA, results='asis', tidy = F, message = F, echo = F}
+```{r acreedores_madrid, results='asis', echo=F}
+require(rCharts)
 data = read.table("datos/acreedores_ayuntamiento_madrid.csv", header = TRUE, sep=",")
-#options(RCHART_WIDTH = 800, RCHART_HEIGHT = 400)
 p2 <- nPlot(Cantidad ~ Acreedor , data = data, type = "pieChart")
-# p2$chart(showControls = F)
 p2
 #p2$save('fig/deuda_madrid.html', cdn = TRUE)
 #cat('<iframe src="fig/deuda_madrid.html" width=100%, height=600></iframe>')
@@ -300,7 +298,8 @@ p2
 ## ¿Cómo se ha generado la deuda?
 
 Coste de algunos "elefantes blancos" (millones €)
-```{r }
+```{r, echo=F}
+require(htmlTable)
 data = read.table("datos/infraestructuras_madrid.csv", header = TRUE, sep=",")
 colnames(data) <- c("Infraestructura", "Presupuesto inicial", "Coste final", "Desviación")
 tmp <- htmlTable(data, align="lrrr", rnames=FALSE, css.class="colortable", 
